@@ -23,7 +23,7 @@ module FacebookPlaces
       http_get do
         return @response if @response.is_a?(Net::HTTPSuccess)
         Logger.new(STDOUT).error parsed_response['error']['message']
-        raise StandartError
+        raise StandardError
       end
     end
 
