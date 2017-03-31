@@ -1,18 +1,12 @@
-require "facebook_places/version"
-require 'rubygems'
-require 'erb'
-require 'httparty'
-
-%w(client request).each do |file|
-  require File.join(File.dirname(__FILE__), 'facebook_places', file)
-end
+require 'json'
+require 'logger'
+require 'net/http'
+require 'facebook_places/version'
+require 'facebook_places/client'
+require 'facebook_places/configuration'
+require 'facebook_places/request'
+require 'facebook_places/place'
+require 'recursive-open-struct'
 
 module FacebookPlaces
-  class << self
-
-    def configuration
-      yield self
-    end
-
-  end
 end

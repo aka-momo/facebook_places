@@ -1,39 +1,38 @@
 module FacebookPlaces
-
-  # Documentaiton
   class Request
-    attr_accessor :response
+    ## Accessors
+    attr_accessor :response, :uri
 
-    include ::HTTParty
-    format :json
-
-    BASE_SEARCH_URL     = 'https://graph.facebook.com/'.freeze
-    VERSION_URL         = 'v2.8/'.freeze
-    GET_PLACE_BY_ID_URL = BASE_SEARCH_URL + VERSION_URL
-    SEARCH_PLACE_URL    = BASE_SEARCH_URL + VERSION_URL + 'search?type=place'
-
+    ## Methods
     def initialize(url, options: {})
-      @response = self.class.get(url, query: options)
+      options.delete_if { |_, value| value.to_s.strip == '' }
+      @uri       = URI(url)
+      @uri.query = URI.encode_www_form(options)
+      @response  = start!
     end
 
-    # Create Request for getting place with id
-    def self.place_by_id_request(place_id, fields: [], options: {})
-      url              = place_url(place_id)
-      options[:fields] = fields.join(',') unless fields.empty?
-      response         = new(url, options: options)
-      response.parsed_response
-    end
-
-    ## TODO
     def parsed_response
-      @response
+      JSON.parse(response.body)
+    rescue
+      Logger.new(STDOUT).error 'Failed to Parse Response'
     end
 
     private
 
-    def self.place_url(id)
-      "#{GET_PLACE_BY_ID_URL}#{id}"
+    def start!
+      http_get do
+        return @response if @response.is_a?(Net::HTTPSuccess)
+        Logger.new(STDOUT).error parsed_response['error']['message']
+        raise StandartError
+      end
     end
 
+    def http_get(&block)
+      Net::HTTP.start(uri.host, uri.port, use_ssl: true) do |http|
+        @request = Net::HTTP::Get.new uri
+        @response = http.request @request
+        yield
+      end
+    end
   end
 end

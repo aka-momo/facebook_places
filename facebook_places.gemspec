@@ -9,9 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Mohamed Diaa', 'Abanoub Aziz']
   spec.email         = ['mohamed.diaa27@gmail.com', 'abanoub.aziz92@gmail.com']
 
-  spec.summary       = %q{Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
-  spec.homepage      = "https://github.com/mohameddiaa27/facebook_places"
+  spec.summary       = 'A simple wrapper for Facebook Places APIs'
+  spec.homepage      = 'https://github.com/mohameddiaa27/facebook_places'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -31,10 +30,9 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'httparty',                ['>= 0.13.1', '< 0.14.1']
+  spec.add_dependency 'recursive-open-struct', '~> 1.0'
 
   spec.add_development_dependency 'bundler', '~> 1.14'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
-
 end
