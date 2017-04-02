@@ -23,7 +23,7 @@ module FacebookPlaces
         fields: fields.join(','),
         center: center,
         distance: distance,
-        categories: categories.join(','),
+        'categories[]' => categories,
         access_token: access_token
       }
       Place.search(options)
