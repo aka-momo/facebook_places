@@ -5,14 +5,14 @@ module FacebookPlaces
       def find(id, options: {})
         url     = Configuration::PLACE_URL % { place_id: id }
         request = Request.new(url, options: options)
-        RecursiveOpenStruct.new(request.parsed_response)
+        RecursiveOpenStruct.new(request.parsed_response, recurse_over_arrays: true)
       end
 
       def search(options)
         options.merge! Configuration::SEARCH_DEFAULT_ATTRIBUTES
         url          = Configuration::SEARCH_URL
         request      = Request.new(url, options: options)
-        response     = RecursiveOpenStruct.new(request.parsed_response)
+        response     = RecursiveOpenStruct.new(request.parsed_response, recurse_over_arrays: true)
         add_easy_pagination(response) unless response.dig(:paging, :next).nil?
         response
       end
