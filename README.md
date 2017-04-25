@@ -1,6 +1,9 @@
 # FacebookPlaces
 
 [![Build Status](https://travis-ci.com/mohameddiaa27/facebook_places.svg?token=z3yXrVS4yVqTxaf5FPz7&branch=master)](https://travis-ci.com/mohameddiaa27/facebook_places)
+[![Code Climate](https://codeclimate.com/github/mohameddiaa27/facebook_places/badges/gpa.svg)](https://codeclimate.com/github/mohameddiaa27/facebook_places)
+[![Issue Count](https://codeclimate.com/github/mohameddiaa27/facebook_places/badges/issue_count.svg)](https://codeclimate.com/github/mohameddiaa27/facebook_places)
+[![Test Coverage](https://codeclimate.com/github/mohameddiaa27/facebook_places/badges/coverage.svg)](https://codeclimate.com/github/mohameddiaa27/facebook_places/coverage)
 
 This gem provides a Ruby wrapper around the [Facebook Places API](https://developers.facebook.com/docs/places/overview).
 
