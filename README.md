@@ -40,6 +40,7 @@ results = client.search(options)
 
 | option     | Description |
 |------------|-------------|
+| q          | The name of the place to search for.|
 | center     | The coordinates for the center of the search, in the format: [latitude],[longitude]; e.g., "140.7307,-73.9918".|
 | fields     | An array of [Place fields](https://developers.facebook.com/docs/places/fields) |
 | distance   | The maximum distance from the center, in meters. This parameter can only be used in conjunction with center. |
