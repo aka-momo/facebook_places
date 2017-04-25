@@ -2,9 +2,7 @@
 
 [![Build Status](https://travis-ci.com/mohameddiaa27/facebook_places.svg?token=z3yXrVS4yVqTxaf5FPz7&branch=master)](https://travis-ci.com/mohameddiaa27/facebook_places)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/facebook_places`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem provides a Ruby wrapper around the [Facebook Places API](https://developers.facebook.com/docs/places/overview).
 
 ## Installation
 
@@ -24,7 +22,44 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Initializing the Places Client by a token
+
+```ruby
+client = FacebookPlaces::Client.new(token)
+```
+
+### Places Search [Docs](https://developers.facebook.com/docs/places/web/search)
+With the Places Search API, you can search for millions of places worldwide, and retrieve place-related details like the number of checkins, ratings, and addresses—all with a single request. 
+
+```ruby
+results = client.search(options)
+```
+
+| option     | Description |
+|------------|-------------|
+| center     | The coordinates for the center of the search, in the format: [latitude],[longitude]; e.g., "140.7307,-73.9918".|
+| fields     | An array of [Place fields](https://developers.facebook.com/docs/places/fields) |
+| distance   | The maximum distance from the center, in meters. This parameter can only be used in conjunction with center. |
+| categories | The place categories to restrict the search results, e.g., ["FOOD_BEVERAGE"].|
+
+**Pagination**
+You can paginate through next pages of the search results by 
+
+```ruby
+new_results = results.next_page
+```
+
+### Place Information [Docs](https://developers.facebook.com/docs/places/web/place-information)
+The Places Information API allows your app to retrieve Place-related information. You can retrieve Place-related information using a place ID.
+
+```ruby
+place = client.find(place_id, fields: [])
+```
+| params     | Description |
+|------------|-------------|
+| place_id   | PLACE_ID    |
+| fields     | An array of [Place fields](https://developers.facebook.com/docs/places/fields) |
+
 
 ## Development
 
@@ -34,7 +69,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/facebook_places. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/mohameddiaa27/facebook_places. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License

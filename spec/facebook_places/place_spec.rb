@@ -43,7 +43,7 @@ RSpec.describe FacebookPlaces::Place do
 
       it 'should list detailed places using fields param', :vcr do
         center   = '28.3852377,-81.566068'
-        fields   = %w[name context link]
+        fields   = %w(name context link)
         places   = @client.search(center: center, fields: fields).data
         places.each do |place|
           expect(place.name).not_to be_nil
