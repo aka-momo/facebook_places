@@ -1,4 +1,5 @@
 # coding: utf-8
+
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'facebook_places/version'
@@ -37,4 +38,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'codeclimate-test-reporter', '~> 1.0.0'
   spec.add_development_dependency 'simplecov', '~> 0.14.1'
+  spec.add_development_dependency 'addressable', '~> 2.4.0'
+  spec.add_development_dependency 'webmock',     '~> 2.3'
+  spec.add_development_dependency 'vcr',         '~> 3.0'
 end

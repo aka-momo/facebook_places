@@ -3,7 +3,7 @@ module FacebookPlaces
   module Configuration
     # BASE URLS
     GRAPH_URL  = 'https://graph.facebook.com/'.freeze
-    VERSION    = 'v2.8'.freeze
+    VERSION    = 'v2.9'.freeze
     BASE_URL   = GRAPH_URL + VERSION + '/'
 
     # API URLS

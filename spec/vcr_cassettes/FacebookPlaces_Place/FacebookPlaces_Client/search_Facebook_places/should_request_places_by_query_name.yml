@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAACEdEose0cBAG4ion65PIkUZCXy6ZC0mDkIQrFmbPEv22o52kLC4tCfDYelph2RljhIiFpzKoC6GLInBuAHUDpOnQGpssQKAZBIU0ZBpTCAV2nUi9kRHfnAuWRhZBff7ujCLzg7hDbsZBngKFfEfsaXXViRQA2zkQNXV7SfGn3WTZCqIGzfLp2PXp4fYZBCBq3Eg4VmlI7NtQZDZD&q=Murphies&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-App-Usage:
+      - '{"call_count":3,"total_cputime":4,"total_time":2}'
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Trace-Id:
+      - EYQ/ipWcnhF
+      Facebook-Api-Version:
+      - v2.9
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Rev:
+      - '2979084'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Etag:
+      - '"94699e8b28a9478f17dcf9afcf475d3b496a8d00"'
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - kv0SywhLUMOhjrecOYgDquRqSdz5kigap4eFJWLgWRapWrRF2G4SbV9Cfq7M0YHCmufuF6K/CYWNyzwxwLP5+A==
+      Date:
+      - Tue, 25 Apr 2017 11:13:51 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '893'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"name":"Murphies","id":"624712967657878"},{"name":"Murphy''s
+        Irish Pub","id":"100519476681069"},{"name":"Irish Murphy''s Brisbane","id":"17051319755"},{"name":"Murphies","id":"495826803915135"},{"name":"City
+        Centre Food Court - Rohini","id":"1775202506071147"},{"name":"The Irish, Launceston","id":"131729311960"},{"name":"j.j
+        murphies","id":"233062506763144"},{"name":"Murphies- FTC Egypt","id":"1686385811574465"},{"name":"Murphies
+        Irish Pub.","id":"118517418298525"},{"name":"Dan Murphies","id":"108937752609768"},{"name":"Senior
+        Murphies","id":"206845893096571"},{"name":"Billy Murphy''s Irish Saloon","id":"380215717808"},{"name":"Murphies
+        Home Health","id":"1467640526881007"},{"name":"Murphies Irish Pub","id":"239388272787207"},{"name":"Murphies
+        Food Court","id":"592831584222597"},{"name":"Murphies Irish Pub","id":"125606024228106"},{"name":"murphies
+        in Carytown","id":"119315320531"},{"name":"Larry Murphies Flambeau Forest","id":"1636837476558964"},{"name":"Papa
+        Murphy''s Pizza","id":"284314854066"},{"name":"Visit Cherokee County, North
+        Carolina - Murphy, Andrews, Brasstown","id":"594009100657287"},{"name":"Papa
+        Murphy''s Pizza UAE","id":"474005425966570"},{"name":"Murphy''s Bleachers","id":"8791571921"},{"name":"Murphy,
+        North Carolina","id":"112044242145145"},{"name":"Murphy''s Pub","id":"150833878333557"},{"name":"BiddyMurphy.com","id":"106740049380917"}],"paging":{"cursors":{"after":"MjQZD"},"next":"https:\/\/graph.facebook.com\/v2.9\/search?access_token=EAACEdEose0cBAG4ion65PIkUZCXy6ZC0mDkIQrFmbPEv22o52kLC4tCfDYelph2RljhIiFpzKoC6GLInBuAHUDpOnQGpssQKAZBIU0ZBpTCAV2nUi9kRHfnAuWRhZBff7ujCLzg7hDbsZBngKFfEfsaXXViRQA2zkQNXV7SfGn3WTZCqIGzfLp2PXp4fYZBCBq3Eg4VmlI7NtQZDZD&q=Murphies&type=place&limit=25&after=MjQZD"}}'
+    http_version: 
+  recorded_at: Tue, 25 Apr 2017 11:13:52 GMT
+recorded_with: VCR 3.0.3

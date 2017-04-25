@@ -1,0 +1,139 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAACEdEose0cBAG4ion65PIkUZCXy6ZC0mDkIQrFmbPEv22o52kLC4tCfDYelph2RljhIiFpzKoC6GLInBuAHUDpOnQGpssQKAZBIU0ZBpTCAV2nUi9kRHfnAuWRhZBff7ujCLzg7hDbsZBngKFfEfsaXXViRQA2zkQNXV7SfGn3WTZCqIGzfLp2PXp4fYZBCBq3Eg4VmlI7NtQZDZD&q=Murphies&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-App-Usage:
+      - '{"call_count":3,"total_cputime":4,"total_time":2}'
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Trace-Id:
+      - BNFWDlvwPnQ
+      Facebook-Api-Version:
+      - v2.9
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Rev:
+      - '2979084'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Etag:
+      - '"94699e8b28a9478f17dcf9afcf475d3b496a8d00"'
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - XnR+4L1QVtaNuHZ8W/t/CTp4pRUH9bHfrjgMWubd8VR8ttjmMzWdDDZK+s60ght3L06w05OiV2VRHI5BGw/PmQ==
+      Date:
+      - Tue, 25 Apr 2017 11:13:54 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '893'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"name":"Murphies","id":"624712967657878"},{"name":"Murphy''s
+        Irish Pub","id":"100519476681069"},{"name":"Irish Murphy''s Brisbane","id":"17051319755"},{"name":"Murphies","id":"495826803915135"},{"name":"City
+        Centre Food Court - Rohini","id":"1775202506071147"},{"name":"The Irish, Launceston","id":"131729311960"},{"name":"j.j
+        murphies","id":"233062506763144"},{"name":"Murphies- FTC Egypt","id":"1686385811574465"},{"name":"Murphies
+        Irish Pub.","id":"118517418298525"},{"name":"Dan Murphies","id":"108937752609768"},{"name":"Senior
+        Murphies","id":"206845893096571"},{"name":"Billy Murphy''s Irish Saloon","id":"380215717808"},{"name":"Murphies
+        Home Health","id":"1467640526881007"},{"name":"Murphies Irish Pub","id":"239388272787207"},{"name":"Murphies
+        Food Court","id":"592831584222597"},{"name":"Murphies Irish Pub","id":"125606024228106"},{"name":"murphies
+        in Carytown","id":"119315320531"},{"name":"Larry Murphies Flambeau Forest","id":"1636837476558964"},{"name":"Papa
+        Murphy''s Pizza","id":"284314854066"},{"name":"Visit Cherokee County, North
+        Carolina - Murphy, Andrews, Brasstown","id":"594009100657287"},{"name":"Papa
+        Murphy''s Pizza UAE","id":"474005425966570"},{"name":"Murphy''s Bleachers","id":"8791571921"},{"name":"Murphy,
+        North Carolina","id":"112044242145145"},{"name":"Murphy''s Pub","id":"150833878333557"},{"name":"BiddyMurphy.com","id":"106740049380917"}],"paging":{"cursors":{"after":"MjQZD"},"next":"https:\/\/graph.facebook.com\/v2.9\/search?access_token=EAACEdEose0cBAG4ion65PIkUZCXy6ZC0mDkIQrFmbPEv22o52kLC4tCfDYelph2RljhIiFpzKoC6GLInBuAHUDpOnQGpssQKAZBIU0ZBpTCAV2nUi9kRHfnAuWRhZBff7ujCLzg7hDbsZBngKFfEfsaXXViRQA2zkQNXV7SfGn3WTZCqIGzfLp2PXp4fYZBCBq3Eg4VmlI7NtQZDZD&q=Murphies&type=place&limit=25&after=MjQZD"}}'
+    http_version: 
+  recorded_at: Tue, 25 Apr 2017 11:13:55 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAACEdEose0cBAG4ion65PIkUZCXy6ZC0mDkIQrFmbPEv22o52kLC4tCfDYelph2RljhIiFpzKoC6GLInBuAHUDpOnQGpssQKAZBIU0ZBpTCAV2nUi9kRHfnAuWRhZBff7ujCLzg7hDbsZBngKFfEfsaXXViRQA2zkQNXV7SfGn3WTZCqIGzfLp2PXp4fYZBCBq3Eg4VmlI7NtQZDZD&after=MjQZD&limit=25&q=Murphies&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-App-Usage:
+      - '{"call_count":3,"total_cputime":4,"total_time":2}'
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Trace-Id:
+      - CyRSaNNyAxL
+      Facebook-Api-Version:
+      - v2.9
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Rev:
+      - '2979084'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Etag:
+      - '"b7f3ffdd86565d16540a1705cd3b09241fe878d4"'
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - o64UykS0XpML8elMibFrlKownyozzHGR6xz0lDHfwtIbLvuPn+BNXD/0SmO1xjhzDIccsddJotzYFaCBwJe//g==
+      Date:
+      - Tue, 25 Apr 2017 11:13:54 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '948'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"name":"Murphy''s Irish Pub, Old Towne","id":"221636931181511"},{"name":"Audie
+        L. Murphy Memorial VA Hospital","id":"1404931386430636"},{"name":"Murphy''s
+        Irish Pub","id":"217511178280950"},{"name":"Murphy''s of Leixlip","id":"997825623610904"},{"name":"Murphys,
+        California","id":"109648499061365"},{"name":"Orangetheory Fitness Murphy","id":"920420781345692"},{"name":"Murphy,
+        Texas","id":"107647059264704"},{"name":"Michael Murphy Home Furnishing","id":"642430649129481"},{"name":"Murphy''s
+        Taproom","id":"291847780846824"},{"name":"Bud Murphy''s","id":"141148445920562"},{"name":"JJ
+        Murphy Footwear Enniscorthy","id":"1210862308963747"},{"name":"24 Hour Fitness
+        - Murphy, TX","id":"103084273085694"},{"name":"Murphy''s Law Irish Pub","id":"275686879130990"},{"name":"McMurphy''s
+        Irish Pub","id":"156165764435213"},{"name":"Murphy Holding Georgia","id":"1615271058780719"},{"name":"Murphys
+        Rock Bar","id":"1564316013829824"},{"name":"Murphy''s Gaelic Gloves","id":"895457210506358"},{"name":"Scruffy
+        Murphy''s","id":"1652512358409056"},{"name":"Caf\u00e9 Maria Jerica","id":"1553735441548318"},{"name":"Murphy''s
+        Law Vico Equense","id":"649443135114629"},{"name":"Haus Murphy''s","id":"235134506503570"},{"name":"Murphy
+        Center","id":"153171131360505"},{"name":"Murphy''s","id":"176350754568"},{"name":"Murphy
+        O''Brien Public Relations","id":"163131505909"},{"name":"Chevelles Restaurant
+        & Bar 66 Murphy","id":"109683917950"}],"paging":{"cursors":{"after":"NDkZD"},"next":"https:\/\/graph.facebook.com\/v2.9\/search?access_token=EAACEdEose0cBAG4ion65PIkUZCXy6ZC0mDkIQrFmbPEv22o52kLC4tCfDYelph2RljhIiFpzKoC6GLInBuAHUDpOnQGpssQKAZBIU0ZBpTCAV2nUi9kRHfnAuWRhZBff7ujCLzg7hDbsZBngKFfEfsaXXViRQA2zkQNXV7SfGn3WTZCqIGzfLp2PXp4fYZBCBq3Eg4VmlI7NtQZDZD&q=Murphies&type=place&limit=25&after=NDkZD"}}'
+    http_version: 
+  recorded_at: Tue, 25 Apr 2017 11:13:55 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAACEdEose0cBAG4ion65PIkUZCXy6ZC0mDkIQrFmbPEv22o52kLC4tCfDYelph2RljhIiFpzKoC6GLInBuAHUDpOnQGpssQKAZBIU0ZBpTCAV2nUi9kRHfnAuWRhZBff7ujCLzg7hDbsZBngKFfEfsaXXViRQA2zkQNXV7SfGn3WTZCqIGzfLp2PXp4fYZBCBq3Eg4VmlI7NtQZDZD&center=28.3852377,-81.566068&distance=1000&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-App-Usage:
+      - '{"call_count":3,"total_cputime":4,"total_time":2}'
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Trace-Id:
+      - H5pFy/Dnl4Z
+      Facebook-Api-Version:
+      - v2.9
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Rev:
+      - '2979084'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Etag:
+      - '"8b7d36fafc1a2566fd05e3f5c7849bd5f036ec8b"'
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - JBvlLDTp2EefEBNyMiQTV9CwY8WxuaBpOMFNGwRj/6MQ1gkqykBttoJvhHNf2E9YVj8g0k7T9UGpV2UbOnU2PQ==
+      Date:
+      - Tue, 25 Apr 2017 11:13:52 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '246'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"name":"Walt Disney World","id":"155669083273"},{"name":"Disney''s
+        Animal Kingdom","id":"117015565049594"},{"name":"Crystal Palace, Magic Kingdom","id":"134025260001965"},{"name":"Disney''s
+        Magic Kingdom","id":"158232190858368"},{"name":"Hollywood & Vine","id":"1591864321031254"},{"name":"Biergarten
+        Restaurant","id":"425845254268580"},{"name":"Planned by Locals","id":"270438940080521"}]}'
+    http_version: 
+  recorded_at: Tue, 25 Apr 2017 11:13:53 GMT
+recorded_with: VCR 3.0.3
