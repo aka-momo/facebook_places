@@ -7,8 +7,8 @@ require 'facebook_places/version'
 Gem::Specification.new do |spec|
   spec.name          = 'facebook_places'
   spec.version       = FacebookPlaces::VERSION
-  spec.authors       = ['Mohamed Diaa', 'Abanoub Aziz']
-  spec.email         = ['mohamed.diaa27@gmail.com', 'abanoub.aziz92@gmail.com']
+  spec.authors       = ['Mohamed Diaa', 'Abanoub Aziz', 'Ramy Aboul Naga']
+  spec.email         = ['mohamed.diaa27@gmail.com', 'abanoub.aziz92@gmail.com', 'ramy.naga@gmail.com']
 
   spec.summary       = 'A simple wrapper for Facebook Places APIs'
   spec.homepage      = 'https://github.com/mohameddiaa27/facebook_places'
