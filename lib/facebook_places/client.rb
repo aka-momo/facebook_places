@@ -17,13 +17,14 @@ module FacebookPlaces
       Place.find(place_id, options: options)
     end
 
-    def search(center: '', q: '', distance: '', categories: [], fields: [])
+    def search(center: '', q: '', distance: '', categories: [], fields: [], limit: 25)
       options = {
         q: q,
         fields: fields.join(','),
         center: center,
         distance: distance,
         'categories[]' => categories,
+        limit: limit,
         access_token: access_token
       }
       Place.search(options)
