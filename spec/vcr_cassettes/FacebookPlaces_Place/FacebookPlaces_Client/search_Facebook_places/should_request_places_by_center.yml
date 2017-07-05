@@ -72,4 +72,199 @@ http_interactions:
         World - Yacht and Beach Club","id":"173573349374196"}],"paging":{"cursors":{"after":"MjQZD"},"next":"https:\/\/graph.facebook.com\/v2.9\/search?access_token=EAACEdEose0cBAG4ion65PIkUZCXy6ZC0mDkIQrFmbPEv22o52kLC4tCfDYelph2RljhIiFpzKoC6GLInBuAHUDpOnQGpssQKAZBIU0ZBpTCAV2nUi9kRHfnAuWRhZBff7ujCLzg7hDbsZBngKFfEfsaXXViRQA2zkQNXV7SfGn3WTZCqIGzfLp2PXp4fYZBCBq3Eg4VmlI7NtQZDZD&type=place&center=28.3852377\u00252C-81.566068&limit=25&after=MjQZD"}}'
     http_version: 
   recorded_at: Tue, 25 Apr 2017 11:13:53 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAACEdEose0cBAG4ion65PIkUZCXy6ZC0mDkIQrFmbPEv22o52kLC4tCfDYelph2RljhIiFpzKoC6GLInBuAHUDpOnQGpssQKAZBIU0ZBpTCAV2nUi9kRHfnAuWRhZBff7ujCLzg7hDbsZBngKFfEfsaXXViRQA2zkQNXV7SfGn3WTZCqIGzfLp2PXp4fYZBCBq3Eg4VmlI7NtQZDZD&center=28.3852377,-81.566068&limit=25&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Www-Authenticate:
+      - 'OAuth "Facebook Platform" "invalid_token" "Error validating access token:
+        Session has expired on Tuesday, 25-Apr-17 05:00:00 PDT. The current time is
+        Wednesday, 05-Jul-17 08:45:06 PDT."'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-App-Usage:
+      - '{"call_count":6,"total_cputime":3,"total_time":5}'
+      X-Fb-Rev:
+      - '3135025'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - DygjQiowAiG
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - kWpkBU6pQrSH3nQm4JoApzF71r3jMi88Fy0UsyChJRvA9up1kQxi4N/ktinwNYkf8K6vgB72ksIx/Iqld5+Vew==
+      Date:
+      - Wed, 05 Jul 2017 15:45:06 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '215'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"error":{"message":"Error validating access token: Session has expired
+        on Tuesday, 25-Apr-17 05:00:00 PDT. The current time is Wednesday, 05-Jul-17
+        08:45:06 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"DygjQiowAiG"}}'
+    http_version: 
+  recorded_at: Wed, 05 Jul 2017 15:45:06 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAACEdEose0cBAPkI15kkJkeVOhvrcZB0cTLaonZBkxZC6qD4a2auskQ7ZCyC1QHt0LT17pYnESZBTYOVQnqygFqzhwFEOEjry2Bm33ZBfotE8ANIA87fiaDLCuL6fOj8t3ap4dPKtzsmyZC7ijCBrMhsZAmUbiSZCLR8dAI2kIDO8eOQIIWIcM4mx3SZCGTK5pmn4CzoGXg6yjkwZDZD&center=28.3852377,-81.566068&limit=25&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-App-Usage:
+      - '{"call_count":6,"total_cputime":3,"total_time":5}'
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Trace-Id:
+      - FoVmirzUdvG
+      Facebook-Api-Version:
+      - v2.9
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Rev:
+      - '3135025'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Etag:
+      - '"09ecf71b24bd4516582640f05cd33fbde73b6876"'
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - XJoDcwj20FolPYpVmmyESar6RoPFVxzpYXM/GSC5sn4bY3eF+R4pJeylnwvhAaXfHGPn6lZuvS+MQiu/LEAZCw==
+      Date:
+      - Wed, 05 Jul 2017 15:46:19 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '969'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"name":"Epcot - Walt Disney World","id":"156893944370924"},{"name":"Disney''s
+        Magic Kingdom","id":"158232190858368"},{"name":"Walt Disney World","id":"155669083273"},{"name":"Orange
+        County, Florida","id":"139040789447194"},{"name":"Disney''s Fort Wilderness
+        Resort & Campground","id":"195033783870469"},{"name":"Walt Disney''s Magic
+        Kingdom","id":"226754634066754"},{"name":"Florida","id":"109714185714936"},{"name":"Hollywood
+        Studios","id":"169251976870095"},{"name":"DisneyWorld Magic Kingdom!!","id":"327420200672073"},{"name":"Disney''s
+        Animal Kingdom","id":"147230535304417"},{"name":"Biergarten Restaurant","id":"425845254268580"},{"name":"Disney''s
+        Beach Club Resort","id":"137678212921206"},{"name":"Walt Disney World Swan
+        and Dolphin","id":"248786110748"},{"name":"Chef Mickey''s","id":"1591659847778800"},{"name":"Disney''s
+        Coronado Springs Resort","id":"152820161407454"},{"name":"Epcot Theme Park","id":"1410379842508325"},{"name":"Disney''s
+        Polynesian Resort","id":"139618109455855"},{"name":"Trattoria Al forno at
+        Disney''s Boardwalk","id":"319039198299712"},{"name":"Disney''s Grand Floridian
+        Resort & Spa","id":"155501214487562"},{"name":"Disney''s Wilderness Lodge","id":"141653012537243"},{"name":"Crystal
+        Palace, Magic Kingdom","id":"134025260001965"},{"name":"Walt Disney World
+        - Yacht and Beach Club","id":"173573349374196"},{"name":"Disney''s Contemporary
+        Resort","id":"119371908114818"},{"name":"Test Track","id":"111959055526514"},{"name":"Soarin''","id":"148101018548159"}],"paging":{"cursors":{"after":"MjQZD"},"next":"https:\/\/graph.facebook.com\/v2.9\/search?access_token=EAACEdEose0cBAPkI15kkJkeVOhvrcZB0cTLaonZBkxZC6qD4a2auskQ7ZCyC1QHt0LT17pYnESZBTYOVQnqygFqzhwFEOEjry2Bm33ZBfotE8ANIA87fiaDLCuL6fOj8t3ap4dPKtzsmyZC7ijCBrMhsZAmUbiSZCLR8dAI2kIDO8eOQIIWIcM4mx3SZCGTK5pmn4CzoGXg6yjkwZDZD&type=place&center=28.3852377\u00252C-81.566068&limit=25&after=MjQZD"}}'
+    http_version: 
+  recorded_at: Wed, 05 Jul 2017 15:46:20 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAAFnWCQaWJ8BAIlHX3BJuzj0uLnTZAY7VLvJO9MInlZBkb5DNDbOkxX1hUNCjsNo5ZBo124uwPf9z2ymCUHJbnnScjtXoCdJRL6xHsFQyplF5W4hioYgCSGGNFZAc8mJieSf2M50rIDLAj9iSCTlGVHU5CsAlLHCPhureoTgZAgHQDmnSDLxSrZA1s2dLUM6QZD&center=28.3852377,-81.566068&limit=25&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - '"550af532568251c9f6280223337d036673fa6704"'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Fb-Rev:
+      - '3135025'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - Di9MEeUqSAL
+      Facebook-Api-Version:
+      - v2.9
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - DeU9nL6ZglBdZqrb7iQvIwADBdbdAG0G2HVmv8UUyYN5yLH5UaEJG8mgLBSIozOZbSHPjfF5E0RCJQoLUer9JA==
+      Date:
+      - Wed, 05 Jul 2017 15:49:34 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '965'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"name":"Epcot - Walt Disney World","id":"156893944370924"},{"name":"Disney''s
+        Magic Kingdom","id":"158232190858368"},{"name":"Magic Kingdom at Walt Disney
+        World","id":"1339265379527087"},{"name":"Orange County, Florida","id":"139040789447194"},{"name":"Florida","id":"109714185714936"},{"name":"Walt
+        Disney World","id":"155669083273"},{"name":"Disney''s Fort Wilderness Resort
+        & Campground","id":"195033783870469"},{"name":"Hollywood Studios","id":"169251976870095"},{"name":"Walt
+        Disney''s Magic Kingdom","id":"226754634066754"},{"name":"Disney''s Polynesian
+        Resort","id":"139618109455855"},{"name":"Walt Disney World Swan and Dolphin","id":"248786110748"},{"name":"Disney''s
+        Animal Kingdom","id":"147230535304417"},{"name":"Disney''s Beach Club Resort","id":"137678212921206"},{"name":"Disney''s
+        Coronado Springs Resort","id":"152820161407454"},{"name":"DisneyWorld Magic
+        Kingdom!!","id":"327420200672073"},{"name":"Disney''s Grand Floridian Resort
+        & Spa","id":"155501214487562"},{"name":"Epcot World Showcase","id":"631508297055704"},{"name":"Magic
+        Kingdom Main Street","id":"459084410835482"},{"name":"Chef Mickey''s","id":"1591659847778800"},{"name":"Disney''s
+        Contemporary Resort","id":"119371908114818"},{"name":"Orange Lake Golf Course
+        Villas, Kissimmee, Florida","id":"385036928246026"},{"name":"Disney''s Wilderness
+        Lodge","id":"141653012537243"},{"name":"Trattoria Al forno at Disney''s Boardwalk","id":"319039198299712"},{"name":"Walt
+        Disney World - Yacht and Beach Club","id":"173573349374196"},{"name":"Soarin''","id":"148101018548159"}],"paging":{"cursors":{"after":"MjQZD"},"next":"https:\/\/graph.facebook.com\/v2.9\/search?access_token=EAAFnWCQaWJ8BAIlHX3BJuzj0uLnTZAY7VLvJO9MInlZBkb5DNDbOkxX1hUNCjsNo5ZBo124uwPf9z2ymCUHJbnnScjtXoCdJRL6xHsFQyplF5W4hioYgCSGGNFZAc8mJieSf2M50rIDLAj9iSCTlGVHU5CsAlLHCPhureoTgZAgHQDmnSDLxSrZA1s2dLUM6QZD&type=place&center=28.3852377\u00252C-81.566068&limit=25&after=MjQZD"}}'
+    http_version: 
+  recorded_at: Wed, 05 Jul 2017 15:49:35 GMT
 recorded_with: VCR 3.0.3

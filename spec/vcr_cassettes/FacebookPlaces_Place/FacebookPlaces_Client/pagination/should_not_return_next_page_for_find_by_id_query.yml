@@ -53,4 +53,108 @@ http_interactions:
       string: '{"name":"Murphies","id":"624712967657878"}'
     http_version: 
   recorded_at: Tue, 25 Apr 2017 11:13:56 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/624712967657878?access_token=EAACEdEose0cBAPkI15kkJkeVOhvrcZB0cTLaonZBkxZC6qD4a2auskQ7ZCyC1QHt0LT17pYnESZBTYOVQnqygFqzhwFEOEjry2Bm33ZBfotE8ANIA87fiaDLCuL6fOj8t3ap4dPKtzsmyZC7ijCBrMhsZAmUbiSZCLR8dAI2kIDO8eOQIIWIcM4mx3SZCGTK5pmn4CzoGXg6yjkwZDZD
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-App-Usage:
+      - '{"call_count":6,"total_cputime":3,"total_time":5}'
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Trace-Id:
+      - Dhjg7UMZGxS
+      Facebook-Api-Version:
+      - v2.9
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Rev:
+      - '3135025'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Etag:
+      - '"4dad9f6aa9cb7d9239a156b6ce539708b7dd3f89"'
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fb-Debug:
+      - 33Z99RcUOuTYDvsNfNGS/mkDLSw46bJPnYbZkTg0ihJB/s12Nj+Weluv6D0/dUxd3lsy/RZvY/xmIV6GUPbsSQ==
+      Date:
+      - Wed, 05 Jul 2017 15:46:23 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '42'
+    body:
+      encoding: UTF-8
+      string: '{"name":"Murphies","id":"624712967657878"}'
+    http_version: 
+  recorded_at: Wed, 05 Jul 2017 15:46:23 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/624712967657878?access_token=EAAFnWCQaWJ8BAIlHX3BJuzj0uLnTZAY7VLvJO9MInlZBkb5DNDbOkxX1hUNCjsNo5ZBo124uwPf9z2ymCUHJbnnScjtXoCdJRL6xHsFQyplF5W4hioYgCSGGNFZAc8mJieSf2M50rIDLAj9iSCTlGVHU5CsAlLHCPhureoTgZAgHQDmnSDLxSrZA1s2dLUM6QZD
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - '"4dad9f6aa9cb7d9239a156b6ce539708b7dd3f89"'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Fb-Rev:
+      - '3135025'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - G27C4DFZZZl
+      Facebook-Api-Version:
+      - v2.9
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Debug:
+      - "+jO6qBfTg5LWie4EaeCAI8sBAdymlxwMbv9KtuTx2DfsDLRz0Y8z8jPrl4IL5b5aECfJwNsYbA7oCoTIZlt54g=="
+      Date:
+      - Wed, 05 Jul 2017 15:49:38 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '42'
+    body:
+      encoding: UTF-8
+      string: '{"name":"Murphies","id":"624712967657878"}'
+    http_version: 
+  recorded_at: Wed, 05 Jul 2017 15:49:39 GMT
 recorded_with: VCR 3.0.3

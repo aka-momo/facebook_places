@@ -67,4 +67,195 @@ http_interactions:
         North Carolina","id":"112044242145145"},{"name":"Murphy''s Pub","id":"150833878333557"},{"name":"BiddyMurphy.com","id":"106740049380917"}],"paging":{"cursors":{"after":"MjQZD"},"next":"https:\/\/graph.facebook.com\/v2.9\/search?access_token=EAACEdEose0cBAG4ion65PIkUZCXy6ZC0mDkIQrFmbPEv22o52kLC4tCfDYelph2RljhIiFpzKoC6GLInBuAHUDpOnQGpssQKAZBIU0ZBpTCAV2nUi9kRHfnAuWRhZBff7ujCLzg7hDbsZBngKFfEfsaXXViRQA2zkQNXV7SfGn3WTZCqIGzfLp2PXp4fYZBCBq3Eg4VmlI7NtQZDZD&q=Murphies&type=place&limit=25&after=MjQZD"}}'
     http_version: 
   recorded_at: Tue, 25 Apr 2017 11:13:52 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAACEdEose0cBAG4ion65PIkUZCXy6ZC0mDkIQrFmbPEv22o52kLC4tCfDYelph2RljhIiFpzKoC6GLInBuAHUDpOnQGpssQKAZBIU0ZBpTCAV2nUi9kRHfnAuWRhZBff7ujCLzg7hDbsZBngKFfEfsaXXViRQA2zkQNXV7SfGn3WTZCqIGzfLp2PXp4fYZBCBq3Eg4VmlI7NtQZDZD&limit=25&q=Murphies&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Www-Authenticate:
+      - 'OAuth "Facebook Platform" "invalid_token" "Error validating access token:
+        Session has expired on Tuesday, 25-Apr-17 05:00:00 PDT. The current time is
+        Wednesday, 05-Jul-17 08:45:05 PDT."'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-App-Usage:
+      - '{"call_count":6,"total_cputime":3,"total_time":5}'
+      X-Fb-Rev:
+      - '3135025'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - DpGqfTHWIEI
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - yIsrjl21J8/Gn1NFpT5fbApBH95pbCL90/YWhH/po1BEz9WhUzGwnKjfANcgnr/eqtCtAnPRBjoHkj+DXVY6LA==
+      Date:
+      - Wed, 05 Jul 2017 15:45:05 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '215'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"error":{"message":"Error validating access token: Session has expired
+        on Tuesday, 25-Apr-17 05:00:00 PDT. The current time is Wednesday, 05-Jul-17
+        08:45:05 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"DpGqfTHWIEI"}}'
+    http_version: 
+  recorded_at: Wed, 05 Jul 2017 15:45:06 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAACEdEose0cBAPkI15kkJkeVOhvrcZB0cTLaonZBkxZC6qD4a2auskQ7ZCyC1QHt0LT17pYnESZBTYOVQnqygFqzhwFEOEjry2Bm33ZBfotE8ANIA87fiaDLCuL6fOj8t3ap4dPKtzsmyZC7ijCBrMhsZAmUbiSZCLR8dAI2kIDO8eOQIIWIcM4mx3SZCGTK5pmn4CzoGXg6yjkwZDZD&limit=25&q=Murphies&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-App-Usage:
+      - '{"call_count":6,"total_cputime":3,"total_time":5}'
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Trace-Id:
+      - BecsYJzcUzw
+      Facebook-Api-Version:
+      - v2.9
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Rev:
+      - '3135025'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Etag:
+      - '"f173cd74bb67d7fce64a4eec03a2613afd379a63"'
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - 1Nx1+ON2XHGiCbAy1v2aeKKkt/MTcFXZj3UC+kbhQEHmIgk96t9SmdoEn6RxJ+uEBIXwb62xfPZF/5idHPUdvg==
+      Date:
+      - Wed, 05 Jul 2017 15:46:19 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '870'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"name":"Murphies","id":"624712967657878"},{"name":"Murphy''s
+        Bar Brandon","id":"392892204087162"},{"name":"Murphy''s Irish Pub","id":"100519476681069"},{"name":"Murphy''s
+        Homestyle","id":"169919996381869"},{"name":"Murphy''s Motorsports","id":"1660549174182422"},{"name":"Murphy''s
+        \u00c9tterem","id":"1661343177478045"},{"name":"Murphy''s Bar Killarney","id":"655597411236715"},{"name":"Murphy''s
+        the Cable Wharf","id":"128893257137249"},{"name":"Murphy''s Shamrock Inn","id":"240336976077990"},{"name":"Murphy''s
+        Tattoos","id":"108368305867767"},{"name":"Murphy''s","id":"141355649553138"},{"name":"Murphy''s
+        Bar Downpatrick","id":"870588629654356"},{"name":"Murphy''s Bar Boolteens","id":"918222548214791"},{"name":"Murphy''s
+        Hook House Bait and Tackle","id":"159356347432051"},{"name":"Murphy''s Beach
+        House","id":"296303567496721"},{"name":"Murphy''s","id":"345229925571455"},{"name":"Mrs.
+        Murphy''s Donuts","id":"1426809660903438"},{"name":"Murphy''s Chophouse","id":"203714779726352"},{"name":"Murphy''s
+        Grill Restaurant","id":"192523950828076"},{"name":"Murphy''s Kitchen Puerto
+        Rico","id":"213860268631454"},{"name":"Murphy''s 8541","id":"100349346680992"},{"name":"Murphy''s
+        Pub & B&B Dingle","id":"135204889880339"},{"name":"Murphy''s Irish Pub","id":"812899815509050"},{"name":"Murphy''s
+        House Of Rock","id":"143089965752907"},{"name":"Murphy''s Autocare","id":"104446369586038"}],"paging":{"cursors":{"after":"MjQZD"},"next":"https:\/\/graph.facebook.com\/v2.9\/search?access_token=EAACEdEose0cBAPkI15kkJkeVOhvrcZB0cTLaonZBkxZC6qD4a2auskQ7ZCyC1QHt0LT17pYnESZBTYOVQnqygFqzhwFEOEjry2Bm33ZBfotE8ANIA87fiaDLCuL6fOj8t3ap4dPKtzsmyZC7ijCBrMhsZAmUbiSZCLR8dAI2kIDO8eOQIIWIcM4mx3SZCGTK5pmn4CzoGXg6yjkwZDZD&q=Murphies&type=place&limit=25&after=MjQZD"}}'
+    http_version: 
+  recorded_at: Wed, 05 Jul 2017 15:46:19 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAAFnWCQaWJ8BAIlHX3BJuzj0uLnTZAY7VLvJO9MInlZBkb5DNDbOkxX1hUNCjsNo5ZBo124uwPf9z2ymCUHJbnnScjtXoCdJRL6xHsFQyplF5W4hioYgCSGGNFZAc8mJieSf2M50rIDLAj9iSCTlGVHU5CsAlLHCPhureoTgZAgHQDmnSDLxSrZA1s2dLUM6QZD&limit=25&q=Murphies&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - '"da387b24dcf20ef20f82a362ba7abc692e8bdfa7"'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Fb-Rev:
+      - '3135073'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - CEVS6MfrcuS
+      Facebook-Api-Version:
+      - v2.9
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - YYKMMESjH093jmSaPGbKrEKoaNMuuVhradRV6k/NNh1M45uKtsghOKs2Z5eqjwEc1+DtalKvOcO/poFcENM7wg==
+      Date:
+      - Wed, 05 Jul 2017 15:49:33 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '867'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"name":"Murphy''s","id":"345229925571455"},{"name":"Murphy''s
+        Irish Pub","id":"100519476681069"},{"name":"Murphy''s Bar Killarney","id":"655597411236715"},{"name":"Murphies","id":"624712967657878"},{"name":"Murphy''s
+        Irish Pub","id":"812899815509050"},{"name":"Murphy''s the Cable Wharf","id":"128893257137249"},{"name":"Murphy''s
+        Tattoos","id":"108368305867767"},{"name":"Murphy''s \u00c9tterem","id":"1661343177478045"},{"name":"Murphy''s
+        Pub & B&B Dingle","id":"135204889880339"},{"name":"Murphy''s Irish Pub Qawra","id":"177710315767199"},{"name":"Murphy''s
+        Bleachers","id":"8791571921"},{"name":"Murphy''s family Restaurant","id":"275210146175"},{"name":"Murphy''s
+        Beach House","id":"296303567496721"},{"name":"Murphy''s Bar Downpatrick","id":"870588629654356"},{"name":"Tropical
+        Murphy''s Irish Pub","id":"170700182978597"},{"name":"Murphy''s Irish Pub
+        Copenhagen Airport","id":"881959355185954"},{"name":"Murphy''s Chophouse","id":"203714779726352"},{"name":"Murphy''s
+        Landing","id":"106720216023560"},{"name":"Mrs. Murphy''s Donuts","id":"1426809660903438"},{"name":"Murphy''s
+        Hotel","id":"122606004461379"},{"name":"Murphy''s Bar Brandon","id":"392892204087162"},{"name":"Murphy''s
+        Homestyle","id":"169919996381869"},{"name":"Murphy''s Pub Herning","id":"184222838291215"},{"name":"Murphy''s
+        Pub(Fine Ales & Food)","id":"112388915500443"},{"name":"Murphy''s Shamrock
+        Inn","id":"240336976077990"}],"paging":{"cursors":{"after":"MjQZD"},"next":"https:\/\/graph.facebook.com\/v2.9\/search?access_token=EAAFnWCQaWJ8BAIlHX3BJuzj0uLnTZAY7VLvJO9MInlZBkb5DNDbOkxX1hUNCjsNo5ZBo124uwPf9z2ymCUHJbnnScjtXoCdJRL6xHsFQyplF5W4hioYgCSGGNFZAc8mJieSf2M50rIDLAj9iSCTlGVHU5CsAlLHCPhureoTgZAgHQDmnSDLxSrZA1s2dLUM6QZD&q=Murphies&type=place&limit=25&after=MjQZD"}}'
+    http_version: 
+  recorded_at: Wed, 05 Jul 2017 15:49:34 GMT
 recorded_with: VCR 3.0.3

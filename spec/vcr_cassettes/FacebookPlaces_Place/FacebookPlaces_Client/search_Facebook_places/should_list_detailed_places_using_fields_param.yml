@@ -103,4 +103,264 @@ http_interactions:
         of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE3MzU3MzM0OTM3NDE5NgZDZD"},"link":"https:\/\/www.facebook.com\/Walt-Disney-World-Yacht-and-Beach-Club-173573349374196\/","id":"173573349374196"}],"paging":{"cursors":{"after":"MjQZD"},"next":"https:\/\/graph.facebook.com\/v2.9\/search?access_token=EAACEdEose0cBAG4ion65PIkUZCXy6ZC0mDkIQrFmbPEv22o52kLC4tCfDYelph2RljhIiFpzKoC6GLInBuAHUDpOnQGpssQKAZBIU0ZBpTCAV2nUi9kRHfnAuWRhZBff7ujCLzg7hDbsZBngKFfEfsaXXViRQA2zkQNXV7SfGn3WTZCqIGzfLp2PXp4fYZBCBq3Eg4VmlI7NtQZDZD&fields=name\u00252Ccontext\u00252Clink&type=place&center=28.3852377\u00252C-81.566068&limit=25&after=MjQZD"}}'
     http_version: 
   recorded_at: Tue, 25 Apr 2017 11:13:54 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAACEdEose0cBAG4ion65PIkUZCXy6ZC0mDkIQrFmbPEv22o52kLC4tCfDYelph2RljhIiFpzKoC6GLInBuAHUDpOnQGpssQKAZBIU0ZBpTCAV2nUi9kRHfnAuWRhZBff7ujCLzg7hDbsZBngKFfEfsaXXViRQA2zkQNXV7SfGn3WTZCqIGzfLp2PXp4fYZBCBq3Eg4VmlI7NtQZDZD&center=28.3852377,-81.566068&fields=name,context,link&limit=25&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Www-Authenticate:
+      - 'OAuth "Facebook Platform" "invalid_token" "Error validating access token:
+        Session has expired on Tuesday, 25-Apr-17 05:00:00 PDT. The current time is
+        Wednesday, 05-Jul-17 08:45:07 PDT."'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-App-Usage:
+      - '{"call_count":7,"total_cputime":3,"total_time":6}'
+      X-Fb-Rev:
+      - '3135025'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - C0qKU4l3ZiR
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - SGXoWazOHNNAJnXlf9Nb340z6pziMe+fEfNqju+tPkAwcCje3KrSxJ64UqBCzLMsNlDlPO1RlbCoi/6ylj09sw==
+      Date:
+      - Wed, 05 Jul 2017 15:45:07 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '217'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"error":{"message":"Error validating access token: Session has expired
+        on Tuesday, 25-Apr-17 05:00:00 PDT. The current time is Wednesday, 05-Jul-17
+        08:45:07 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"C0qKU4l3ZiR"}}'
+    http_version: 
+  recorded_at: Wed, 05 Jul 2017 15:45:07 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAACEdEose0cBAPkI15kkJkeVOhvrcZB0cTLaonZBkxZC6qD4a2auskQ7ZCyC1QHt0LT17pYnESZBTYOVQnqygFqzhwFEOEjry2Bm33ZBfotE8ANIA87fiaDLCuL6fOj8t3ap4dPKtzsmyZC7ijCBrMhsZAmUbiSZCLR8dAI2kIDO8eOQIIWIcM4mx3SZCGTK5pmn4CzoGXg6yjkwZDZD&center=28.3852377,-81.566068&fields=name,context,link&limit=25&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-App-Usage:
+      - '{"call_count":6,"total_cputime":3,"total_time":5}'
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Trace-Id:
+      - CJ6v1oXIw6G
+      Facebook-Api-Version:
+      - v2.9
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Rev:
+      - '3135025'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Etag:
+      - '"db858a4d957eddaf2284d4d8222a5f328ae8b94d"'
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - 6xwkIoaxCZ8rZEBfYWh9U0lnQI57HcMHvrpmcYOvbfbXoYZ1Atbpc2IzJBJGfgSOqCVwQqc1agd1xacKQEzw4g==
+      Date:
+      - Wed, 05 Jul 2017 15:46:21 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1883'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"name":"Epcot - Walt Disney World","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE1Njg5Mzk0NDM3MDkyNAZDZD"},"link":"https:\/\/www.facebook.com\/Epcot-Walt-Disney-World-156893944370924\/","id":"156893944370924"},{"name":"Walt
+        Disney World","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE1NTY2OTA4MzI3MwZDZD"},"link":"https:\/\/www.facebook.com\/WaltDisneyWorld\/","id":"155669083273"},{"name":"Magic
+        Kingdom at Walt Disney World","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjEzMzkyNjUzNzk1MjcwODcZD"},"link":"https:\/\/www.facebook.com\/pages\/Magic-Kingdom-at-Walt-Disney-World\/1339265379527087","id":"1339265379527087"},{"name":"Orange
+        County, Florida","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjEzOTA0MDc4OTQ0NzE5NAZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Orange-County-Florida\/139040789447194","id":"139040789447194"},{"name":"Disney''s
+        Magic Kingdom","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE1ODIzMjE5MDg1ODM2OAZDZD"},"link":"https:\/\/www.facebook.com\/Disneys-Magic-Kingdom-158232190858368\/","id":"158232190858368"},{"name":"Disney''s
+        Fort Wilderness Resort & Campground","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE5NTAzMzc4Mzg3MDQ2OQZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Disneys-Fort-Wilderness-Resort-Campground\/195033783870469","id":"195033783870469"},{"name":"Florida","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjEwOTcxNDE4NTcxNDkzNgZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Florida\/109714185714936","id":"109714185714936"},{"name":"Walt
+        Disney''s Magic Kingdom","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjIyNjc1NDYzNDA2Njc1NAZDZD"},"link":"https:\/\/www.facebook.com\/Walt-Disneys-Magic-Kingdom-226754634066754\/","id":"226754634066754"},{"name":"Hollywood
+        Studios","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE2OTI1MTk3Njg3MDA5NQZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Hollywood-Studios\/169251976870095","id":"169251976870095"},{"name":"Disney''s
+        Polynesian Resort","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjEzOTYxODEwOTQ1NTg1NQZDZD"},"link":"https:\/\/www.facebook.com\/Disneys-Polynesian-Resort-139618109455855\/","id":"139618109455855"},{"name":"Disney''s
+        Animal Kingdom","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE0NzIzMDUzNTMwNDQxNwZDZD"},"link":"https:\/\/www.facebook.com\/DisneysAnimalKingdomPark\/","id":"147230535304417"},{"name":"DisneyWorld
+        Magic Kingdom!!","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjMyNzQyMDIwMDY3MjA3MwZDZD"},"link":"https:\/\/www.facebook.com\/DisneyWorld-Magic-Kingdom-327420200672073\/","id":"327420200672073"},{"name":"Disney''s
+        Coronado Springs Resort","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE1MjgyMDE2MTQwNzQ1NAZDZD"},"link":"https:\/\/www.facebook.com\/Disneys-Coronado-Springs-Resort-152820161407454\/","id":"152820161407454"},{"name":"Disney''s
+        Beach Club Resort","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjEzNzY3ODIxMjkyMTIwNgZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Disneys-Beach-Club-Resort\/137678212921206","id":"137678212921206"},{"name":"Walt
+        Disney World Swan and Dolphin","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjI0ODc4NjExMDc0OAZDZD"},"link":"https:\/\/www.facebook.com\/swananddolphin\/","id":"248786110748"},{"name":"Chef
+        Mickey''s","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE1OTE2NTk4NDc3Nzg4MDAZD"},"link":"https:\/\/www.facebook.com\/pages\/Chef-Mickeys\/1591659847778800","id":"1591659847778800"},{"name":"Magic
+        Kingdom Main Street","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjQ1OTA4NDQxMDgzNTQ4MgZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Magic-Kingdom-Main-Street\/459084410835482","id":"459084410835482"},{"name":"Biergarten
+        Restaurant","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjQyNTg0NTI1NDI2ODU4MAZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Biergarten-Restaurant\/425845254268580","id":"425845254268580"},{"name":"Epcot
+        Theme Park","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE0MTAzNzk4NDI1MDgzMjUZD"},"link":"https:\/\/www.facebook.com\/pages\/Epcot-Theme-Park\/1410379842508325","id":"1410379842508325"},{"name":"Epcot
+        World Showcase","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjYzMTUwODI5NzA1NTcwNAZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Epcot-World-Showcase\/631508297055704","id":"631508297055704"},{"name":"Disney''s
+        Wilderness Lodge","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE0MTY1MzAxMjUzNzI0MwZDZD"},"link":"https:\/\/www.facebook.com\/Disneys-Wilderness-Lodge-141653012537243\/","id":"141653012537243"},{"name":"Trattoria
+        Al forno at Disney''s Boardwalk","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjMxOTAzOTE5ODI5OTcxMgZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Trattoria-Al-forno-at-Disneys-Boardwalk\/319039198299712","id":"319039198299712"},{"name":"Disney''s
+        Grand Floridian Resort & Spa","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE1NTUwMTIxNDQ4NzU2MgZDZD"},"link":"https:\/\/www.facebook.com\/Disneys-Grand-Floridian-Resort-Spa-155501214487562\/","id":"155501214487562"},{"name":"Disney
+        Fort Wilderness Camp Site","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE0MDQwMDM1OTM1NTE4MAZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Disney-Fort-Wilderness-Camp-Site\/140400359355180","id":"140400359355180"},{"name":"Crystal
+        Palace, Magic Kingdom","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjEzNDAyNTI2MDAwMTk2NQZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Crystal-Palace-Magic-Kingdom\/134025260001965","id":"134025260001965"}],"paging":{"cursors":{"after":"MjQZD"},"next":"https:\/\/graph.facebook.com\/v2.9\/search?access_token=EAACEdEose0cBAPkI15kkJkeVOhvrcZB0cTLaonZBkxZC6qD4a2auskQ7ZCyC1QHt0LT17pYnESZBTYOVQnqygFqzhwFEOEjry2Bm33ZBfotE8ANIA87fiaDLCuL6fOj8t3ap4dPKtzsmyZC7ijCBrMhsZAmUbiSZCLR8dAI2kIDO8eOQIIWIcM4mx3SZCGTK5pmn4CzoGXg6yjkwZDZD&fields=name\u00252Ccontext\u00252Clink&type=place&center=28.3852377\u00252C-81.566068&limit=25&after=MjQZD"}}'
+    http_version: 
+  recorded_at: Wed, 05 Jul 2017 15:46:21 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAAFnWCQaWJ8BAIlHX3BJuzj0uLnTZAY7VLvJO9MInlZBkb5DNDbOkxX1hUNCjsNo5ZBo124uwPf9z2ymCUHJbnnScjtXoCdJRL6xHsFQyplF5W4hioYgCSGGNFZAc8mJieSf2M50rIDLAj9iSCTlGVHU5CsAlLHCPhureoTgZAgHQDmnSDLxSrZA1s2dLUM6QZD&center=28.3852377,-81.566068&fields=name,context,link&limit=25&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - '"bdea3f5d5d6f9ee94487e7f935f033b34593757b"'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Fb-Rev:
+      - '3135025'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - GjtRKV4+ccJ
+      Facebook-Api-Version:
+      - v2.9
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - m8GELlHTkwaEgyBYvDbFhcmycc0CHWBj4DykY5zMwnNkFqcqQKbEstY1TiZa22FqdnaNlKTCPsiqHoyQOIEQDg==
+      Date:
+      - Wed, 05 Jul 2017 15:49:36 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1891'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":[{"name":"Epcot - Walt Disney World","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE1Njg5Mzk0NDM3MDkyNAZDZD"},"link":"https:\/\/www.facebook.com\/Epcot-Walt-Disney-World-156893944370924\/","id":"156893944370924"},{"name":"Disney''s
+        Magic Kingdom","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE1ODIzMjE5MDg1ODM2OAZDZD"},"link":"https:\/\/www.facebook.com\/Disneys-Magic-Kingdom-158232190858368\/","id":"158232190858368"},{"name":"Magic
+        Kingdom at Walt Disney World","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjEzMzkyNjUzNzk1MjcwODcZD"},"link":"https:\/\/www.facebook.com\/pages\/Magic-Kingdom-at-Walt-Disney-World\/1339265379527087","id":"1339265379527087"},{"name":"Orange
+        County, Florida","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjEzOTA0MDc4OTQ0NzE5NAZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Orange-County-Florida\/139040789447194","id":"139040789447194"},{"name":"Florida","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjEwOTcxNDE4NTcxNDkzNgZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Florida\/109714185714936","id":"109714185714936"},{"name":"Walt
+        Disney World","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE1NTY2OTA4MzI3MwZDZD"},"link":"https:\/\/www.facebook.com\/WaltDisneyWorld\/","id":"155669083273"},{"name":"Disney''s
+        Fort Wilderness Resort & Campground","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE5NTAzMzc4Mzg3MDQ2OQZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Disneys-Fort-Wilderness-Resort-Campground\/195033783870469","id":"195033783870469"},{"name":"Hollywood
+        Studios","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE2OTI1MTk3Njg3MDA5NQZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Hollywood-Studios\/169251976870095","id":"169251976870095"},{"name":"Walt
+        Disney''s Magic Kingdom","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjIyNjc1NDYzNDA2Njc1NAZDZD"},"link":"https:\/\/www.facebook.com\/Walt-Disneys-Magic-Kingdom-226754634066754\/","id":"226754634066754"},{"name":"Disney''s
+        Polynesian Resort","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjEzOTYxODEwOTQ1NTg1NQZDZD"},"link":"https:\/\/www.facebook.com\/Disneys-Polynesian-Resort-139618109455855\/","id":"139618109455855"},{"name":"Walt
+        Disney World Swan and Dolphin","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjI0ODc4NjExMDc0OAZDZD"},"link":"https:\/\/www.facebook.com\/swananddolphin\/","id":"248786110748"},{"name":"Disney''s
+        Animal Kingdom","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE0NzIzMDUzNTMwNDQxNwZDZD"},"link":"https:\/\/www.facebook.com\/DisneysAnimalKingdomPark\/","id":"147230535304417"},{"name":"Disney''s
+        Beach Club Resort","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjEzNzY3ODIxMjkyMTIwNgZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Disneys-Beach-Club-Resort\/137678212921206","id":"137678212921206"},{"name":"Disney''s
+        Coronado Springs Resort","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE1MjgyMDE2MTQwNzQ1NAZDZD"},"link":"https:\/\/www.facebook.com\/Disneys-Coronado-Springs-Resort-152820161407454\/","id":"152820161407454"},{"name":"DisneyWorld
+        Magic Kingdom!!","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjMyNzQyMDIwMDY3MjA3MwZDZD"},"link":"https:\/\/www.facebook.com\/DisneyWorld-Magic-Kingdom-327420200672073\/","id":"327420200672073"},{"name":"Disney''s
+        Grand Floridian Resort & Spa","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE1NTUwMTIxNDQ4NzU2MgZDZD"},"link":"https:\/\/www.facebook.com\/Disneys-Grand-Floridian-Resort-Spa-155501214487562\/","id":"155501214487562"},{"name":"Epcot
+        World Showcase","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjYzMTUwODI5NzA1NTcwNAZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Epcot-World-Showcase\/631508297055704","id":"631508297055704"},{"name":"Magic
+        Kingdom Main Street","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjQ1OTA4NDQxMDgzNTQ4MgZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Magic-Kingdom-Main-Street\/459084410835482","id":"459084410835482"},{"name":"Chef
+        Mickey''s","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE1OTE2NTk4NDc3Nzg4MDAZD"},"link":"https:\/\/www.facebook.com\/pages\/Chef-Mickeys\/1591659847778800","id":"1591659847778800"},{"name":"Disney''s
+        Contemporary Resort","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjExOTM3MTkwODExNDgxOAZDZD"},"link":"https:\/\/www.facebook.com\/Disneys-Contemporary-Resort-119371908114818\/","id":"119371908114818"},{"name":"Orange
+        Lake Golf Course Villas, Kissimmee, Florida","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjM4NTAzNjkyODI0NjAyNgZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Orange-Lake-Golf-Course-Villas-Kissimmee-Florida\/385036928246026","id":"385036928246026"},{"name":"Disney''s
+        Wilderness Lodge","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE0MTY1MzAxMjUzNzI0MwZDZD"},"link":"https:\/\/www.facebook.com\/Disneys-Wilderness-Lodge-141653012537243\/","id":"141653012537243"},{"name":"Trattoria
+        Al forno at Disney''s Boardwalk","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjMxOTAzOTE5ODI5OTcxMgZDZD"},"link":"https:\/\/www.facebook.com\/pages\/Trattoria-Al-forno-at-Disneys-Boardwalk\/319039198299712","id":"319039198299712"},{"name":"Walt
+        Disney World - Yacht and Beach Club","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE3MzU3MzM0OTM3NDE5NgZDZD"},"link":"https:\/\/www.facebook.com\/Walt-Disney-World-Yacht-and-Beach-Club-173573349374196\/","id":"173573349374196"},{"name":"Soarin''","context":{"friends_who_like":{"data":[],"summary":{"social_sentence":"0
+        of your friends like this.","total_count":0}},"id":"b3Blbl9ncmFwaF9jb250ZAXh0OjE0ODEwMTAxODU0ODE1OQZDZD"},"link":"https:\/\/www.facebook.com\/Soarin-148101018548159\/","id":"148101018548159"}],"paging":{"cursors":{"after":"MjQZD"},"next":"https:\/\/graph.facebook.com\/v2.9\/search?access_token=EAAFnWCQaWJ8BAIlHX3BJuzj0uLnTZAY7VLvJO9MInlZBkb5DNDbOkxX1hUNCjsNo5ZBo124uwPf9z2ymCUHJbnnScjtXoCdJRL6xHsFQyplF5W4hioYgCSGGNFZAc8mJieSf2M50rIDLAj9iSCTlGVHU5CsAlLHCPhureoTgZAgHQDmnSDLxSrZA1s2dLUM6QZD&fields=name\u00252Ccontext\u00252Clink&type=place&center=28.3852377\u00252C-81.566068&limit=25&after=MjQZD"}}'
+    http_version: 
+  recorded_at: Wed, 05 Jul 2017 15:49:36 GMT
 recorded_with: VCR 3.0.3

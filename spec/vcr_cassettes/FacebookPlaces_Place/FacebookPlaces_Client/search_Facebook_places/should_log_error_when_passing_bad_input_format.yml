@@ -57,4 +57,173 @@ http_interactions:
         longitude must be in the signed decimal degree format, e.g. 37.484531,-122.148061","type":"OAuthException","code":100,"fbtrace_id":"E1W\/s\/\/4g0S"}}'
     http_version: 
   recorded_at: Tue, 25 Apr 2017 11:13:54 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAACEdEose0cBAG4ion65PIkUZCXy6ZC0mDkIQrFmbPEv22o52kLC4tCfDYelph2RljhIiFpzKoC6GLInBuAHUDpOnQGpssQKAZBIU0ZBpTCAV2nUi9kRHfnAuWRhZBff7ujCLzg7hDbsZBngKFfEfsaXXViRQA2zkQNXV7SfGn3WTZCqIGzfLp2PXp4fYZBCBq3Eg4VmlI7NtQZDZD&center=lat,long&limit=25&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Www-Authenticate:
+      - 'OAuth "Facebook Platform" "invalid_token" "Error validating access token:
+        Session has expired on Tuesday, 25-Apr-17 05:00:00 PDT. The current time is
+        Wednesday, 05-Jul-17 08:45:07 PDT."'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-App-Usage:
+      - '{"call_count":7,"total_cputime":5,"total_time":8}'
+      X-Fb-Rev:
+      - '3135025'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - Cv9WyTB7Ruf
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - iqUj5uLa5IicqiOKqbT+ao1hNB/fM1THXGqaHrOjRFD2FIH6TrB6+JgnsaCthGz476HbHrneiBVdooA0ihQ38g==
+      Date:
+      - Wed, 05 Jul 2017 15:45:07 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '214'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"error":{"message":"Error validating access token: Session has expired
+        on Tuesday, 25-Apr-17 05:00:00 PDT. The current time is Wednesday, 05-Jul-17
+        08:45:07 PDT.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"Cv9WyTB7Ruf"}}'
+    http_version: 
+  recorded_at: Wed, 05 Jul 2017 15:45:08 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAACEdEose0cBAPkI15kkJkeVOhvrcZB0cTLaonZBkxZC6qD4a2auskQ7ZCyC1QHt0LT17pYnESZBTYOVQnqygFqzhwFEOEjry2Bm33ZBfotE8ANIA87fiaDLCuL6fOj8t3ap4dPKtzsmyZC7ijCBrMhsZAmUbiSZCLR8dAI2kIDO8eOQIIWIcM4mx3SZCGTK5pmn4CzoGXg6yjkwZDZD&center=lat,long&limit=25&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      X-App-Usage:
+      - '{"call_count":7,"total_cputime":5,"total_time":8}'
+      X-Fb-Trace-Id:
+      - DvvHP1+TgYy
+      Facebook-Api-Version:
+      - v2.9
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Rev:
+      - '3135025'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Www-Authenticate:
+      - 'OAuth "Facebook Platform" "invalid_request" "(#100) For field ''placesearch'':
+        Latitude and longitude must be in the signed decimal degree format, e.g. 37.484531,-122.148061"'
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - kfnPi5cbdD3ogy0yyC26Yv1r/zk0xn0hfHD4mZAtqonglzm9vNEKCXW2xhHURd7V++frmSccSxO19yhJ2LmCOg==
+      Date:
+      - Wed, 05 Jul 2017 15:46:21 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '201'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"error":{"message":"(#100) For field ''placesearch'': Latitude and
+        longitude must be in the signed decimal degree format, e.g. 37.484531,-122.148061","type":"OAuthException","code":100,"fbtrace_id":"DvvHP1+TgYy"}}'
+    http_version: 
+  recorded_at: Wed, 05 Jul 2017 15:46:22 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/v2.9/search?access_token=EAAFnWCQaWJ8BAIlHX3BJuzj0uLnTZAY7VLvJO9MInlZBkb5DNDbOkxX1hUNCjsNo5ZBo124uwPf9z2ymCUHJbnnScjtXoCdJRL6xHsFQyplF5W4hioYgCSGGNFZAc8mJieSf2M50rIDLAj9iSCTlGVHU5CsAlLHCPhureoTgZAgHQDmnSDLxSrZA1s2dLUM6QZD&center=lat,long&limit=25&type=place
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - graph.facebook.com
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Www-Authenticate:
+      - 'OAuth "Facebook Platform" "invalid_request" "(#100) For field ''placesearch'':
+        Latitude and longitude must be in the signed decimal degree format, e.g. 37.484531,-122.148061"'
+      Access-Control-Allow-Origin:
+      - "*"
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Fb-Rev:
+      - '3135025'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Fb-Trace-Id:
+      - E7qyDoCsoOo
+      Facebook-Api-Version:
+      - v2.9
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Accept-Encoding
+      X-Fb-Debug:
+      - nYvawQn9At/Jl0Q0b+5QLAMj6xhCUqtQc+UDZKDPgLdzC45QP5wl5H8BK+/w3qGmRlBZ1EKAp0lOsh/jvttjTw==
+      Date:
+      - Wed, 05 Jul 2017 15:49:36 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '197'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"error":{"message":"(#100) For field ''placesearch'': Latitude and
+        longitude must be in the signed decimal degree format, e.g. 37.484531,-122.148061","type":"OAuthException","code":100,"fbtrace_id":"E7qyDoCsoOo"}}'
+    http_version: 
+  recorded_at: Wed, 05 Jul 2017 15:49:37 GMT
 recorded_with: VCR 3.0.3
